@@ -1,0 +1,22 @@
+[project]
+name = "cuevis"
+version = "1.0.0"
+description = ""
+authors = [
+    {name = "Morph Tollon",email = "code@morphtollon.co.uk"}
+]
+license = 'MIT'
+requires-python = ">=3.14, <4.0"
+dependencies = [
+    "fastapi (>=0.129.0,<0.130.0)",
+    "uvicorn (>=0.40.0,<0.41.0)",
+    "jinja2 (>=3.1.6,<4.0.0)",
+    "pyopensoundcontrol (>=1.0.15,<2.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
